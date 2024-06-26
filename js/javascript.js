@@ -330,9 +330,9 @@ const links1 = [
 ];
 
 const links2 = [
-    { href: 'Privacy-policy.html', text: 'Privacy-policy' },
+    { href: 'Privacy-policy.html', text: 'Policy' },
     { href: 'disclaimer.html', text: 'Disclaimer' },
-    { href: 'Terms-condition.html', text: 'Terms and Conditions' }
+    { href: 'Terms-condition.html', text: 'Terms' }
 ];
 
 links1.forEach(link => {
