@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+#homepage,#songpage,#song-details{
+    margin: 0 180px;
+    border: 1px solid black;
+}
+.EachsongpageContent{
+    margin: 0 180px;
+}
+.brand{
+    text-align: center;
+    background-color: orange;
+    color: rgb(22, 20, 20);
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+}
+.brand img{
+    width: 150px;
+}
+#header{
+    display: flex;
+    width: 100%;
+}
+#header div{
+    border: 1px solid black;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+    height: min-content;
+}
+#header div a{
+    text-decoration: none;
+    color: black;
+}
+#searchbar{
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+#searchbar input[type="text"]{
+    width: 85%;
+    padding: 10px;
+}
+#searchbar input[type="text"]:focus{
+    outline:2px solid #f99548;
+}
+#searchbar input[type="button"]{
+    width: 15%;
+    background-color: orange;
+    color: white;
+}
+
+#homeContent{
+    margin-top: 10px;
+}
+#homeContent a{
+    text-decoration: none;
+}
+.resultitems{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+#song{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+#homebuttons{
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    padding:0 10px;
+}
+#song #songimg{
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 0 0;
+}
+#song img,.pagebuttons img{
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+.button{
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 40px;
+    margin: 0 10px;
+}
+#search-results img{
+    width: 40px;
+}
+#search-results{
+    position: absolute;
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    width: 50%;
+    overflow: scroll;
+    border:1px solid black;
+    scrollbar-width: none;
+
+}
+.text-center{
+    width: 250px;
+}
+@media(max-width:768px){
+    .text-center{
+        width: 100px;
+    }
+    #header div{
+        height: 100px;
+    }
+    #homepage,#songpage,#song-details,.EachsongpageContent{
+        margin: 0;
+    }
+    #search-results{
+        width: 80%;
+    }
+    .song-details #song-img{
+        width: 100px;
+    }
+    #song #songimg{
+        height: 50px;
+        width: 50px;
+    }
+}
+.song-details{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+.song-details #song-img{
+    width: 150px;
+}
+#song-audio{
+    margin:10px auto;
+    display: block;
+    width: 350px;
+}
+.pagebuttons{
+    margin: 10px;
+}
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+.footer-content nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.footer-content nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.homeLink{
+    display: block;
+    background-color: #f4eeee;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    margin: 10px 0;
+    color: black;
+}
